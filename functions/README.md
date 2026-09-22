@@ -1,20 +1,14 @@
-# Проект Python
+# Проект "Functions"
 
-## Инструкция по запуску
+Репозиторий содержит набор функций и модулей Python.
 
-1. Склонировать репозиторий и перейти в папку:
-   git clone https://github.com/EpicSans266/Functions/tree/main/functions
-   cd ВАШ_РЕПОЗИТОРИЙ
+## Структура репозитория
 
-2. Создать и активировать виртуальное окружение:
-   python -m venv venv
-   # Для Windows:
-   venv\Scripts\activate
-   # Для Linux/macOS:
-   source venv/bin/activate
+Код проекта расположен в папке `functions/`.
 
-3. Установить зависимости:
-   pip install -r requirements.txt
+## Порядок запуска и проверки
 
-4. Запустить программу:
-   python main.py
+### 1. Клонирование репозитория
+```bash
+git clone [https://github.com/EpicSans266/Functions.git](https://github.com/EpicSans266/Functions.git)
+cd Functions
