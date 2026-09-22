@@ -1,3 +1,5 @@
+from tokenize import TokenError
+
 from sympy import Abs, E, I, S, cos, diff, exp, log, oo, parse_expr, pi, sin, solveset, sqrt, symbols, tan
 from sympy.calculus.util import continuous_domain, function_range
 
@@ -85,5 +87,5 @@ try:
 		raise ValueError
 
 	print("Композиция f(g(x)) =", function.subs(x, second_function))
-except (ValueError, TypeError, SyntaxError, NotImplementedError):
+except (TokenError, ValueError, TypeError, SyntaxError, NotImplementedError):
 	print("Не удалось распознать функцию или проверить её свойства")
