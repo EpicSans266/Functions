@@ -3,7 +3,7 @@
 ## Инструкция по запуску
 
 1. Склонировать репозиторий и перейти в папку:
-   git clone https://github.com/ВАШ_ЛОГИН/ВАШ_РЕПОЗИТОРИЙ.git
+   git clone https://github.com/EpicSans266/Functions/tree/main/functions
    cd ВАШ_РЕПОЗИТОРИЙ
 
 2. Создать и активировать виртуальное окружение:
